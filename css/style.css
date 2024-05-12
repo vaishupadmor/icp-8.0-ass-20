@@ -82,7 +82,118 @@ body {
 .bottom-menu-icon-active{
  background-color: pink;
 }
+.home{
+    justify-content: center;
+}
+.img-home{
+    border-radius: 20px;
+    box-shadow: 0 0 30px 5px blue;
+}
 
+
+
+
+
+
+body{
+    background-color: white;
+
+}
+
+.cards-container{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.acontainer{
+background-color: aliceblue;
+border-radius: 20px;
+border:0px  solid grey;
+width:400px;
+height:200px;
+margin:5px;
+box-shadow: 0px 0px 50px 1px grey;
+
+
+}
+
+.quick-card{
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+
+.aff-image{
+height: 40px;
+box-shadow: 0px 0px  35px 0px grey;
+border-radius: 10px;
+padding:5px;
+margin: 10px;
+
+
+
+}
+.header{
+font-size: 20px;
+margin-left: 10px;
+
+
+
+}
+
+.text{
+font-size: 15px;
+font-weight: 100;
+padding: 0px 20px;
+margin-top:25px;
+
+
+}
+
+.forms{
+    font-size:40px;
+    color:#060270;
+
+}
+
+.contact-image{
+    height: 50px;
+}
+
+.aforms{
+    color:blue;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 993px ) and (max-width:1200px){
+    .bottom-navigation-bar{
+        display: none;
+    }
+
+    .home{
+        justify-content: center;
+    }
+    .img-home{
+        border-radius: 20px;
+        box-shadow: 0 0 30px 5px blue;
+        width:100%;
+        margin:0px;
+    }
+
+    
+        
+        
+    
+}
 
 @media screen and (max-width:600px){
     .sidebar{
@@ -93,6 +204,25 @@ body {
            display: flex;
            justify-content: space-around;
     }
+
+    .home{
+        justify-content: center;
+    }
+    .img-home{
+        border-radius: 20px;
+        box-shadow: 0 0 30px 5px blue;
+        width:100%;
+        margin:0px;
+    }
+
+    .acontainer{
+          flex-wrap: wrap;
+
+    }
+
+    
+        
+    
 }
 
 @media screeen and (min-width:769px) and (max-width:992px){
@@ -103,10 +233,18 @@ body {
         display: none;
     }
 
-}
-
-@media screen and (min-width: 993px ) and (max-width:1200px){
-    .bottom-navigation-bar{
-        display: none;
+    .home{
+        justify-content: center;
     }
-}
+    .img-home{
+        border-radius: 20px;
+        box-shadow: 0 0 30px 5px blue;
+        width:100%;
+        margin:0px;
+    }
+
+    
+        }
+        
+        
+    
