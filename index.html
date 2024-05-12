@@ -4,85 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sidebar</title>
-    <style>
- 
- body{
-    background-color: snow;
-    margin:0;
-    padding:0;
-
- }
-
- .container{
+    <link rel="stylesheet" href="./css/style.css">
     
-    display:flex;
-    min-height:100vh ;
-
- }
-
- .sidebar{
-    background-color: #9E9E9E;
-    width:200px;
- }
-
- .content{
-    background-color: white;
-    width:100%;
-    font-size: 50px;
-    margin: 50px;
-    margin-top:10px;
- }
-
- .menu-item{
-    background-color: snow;
-    margin:10px;
-    border-radius:5px;
-    display:flex;
-    align-items: center;
-    padding:5px 20px;
-    cursor:pointer;
- }
-
- .menu-item:hover{
-    box-shadow: 0 0 5px 2px blue;
-    background-color:#FFF59D ;
-
-
-
- }
- .menu-icon{
-  height:30px;
- }
-
- .menu-text{
-    margin-left:10px;
-    color:red;
-    font-weight: 300;
-    font-size: 20px;
- }
-
-
-
-    @media screen and (max-width:600px){
-    }
-
-    @media screeen and (min-width:769px) and (max-width:992px){
-
-}
-
-@media screen and (min-width: 993px ) and (max-width:1200px){
-
-}
-
-
-
-</style>
 
 </head>
 <body>
     <div class="container">
       <div class="sidebar">
-      <a class="menu-item" href="pages/homee.html">
+      <a class="menu-item active-menu" href="pages/homee.html">
          <img src="./pages/img/homee.png" alt="home" class="menu-icon"/>
          <span class="menu-text"> Home</span>
       </a>
@@ -105,6 +34,25 @@
       <div class="content">
         This is Homepage
       </div>  
+    </div>
+
+    <div class="bottom-navigation-bar">
+       <a class="bottom-menu-item " href="./index.html"> 
+         
+            <img src="./pages/img/homee.png"  class="bottom-menu-icon  bottom-menu-icon-active "/>
+       </a>
+
+       <a class="bottom-menu-item" href="./pages/profile.html"> 
+        <img src="./pages/img/profile.png"  class="bottom-menu-icon"/>
+       </a>
+
+       <a class="bottom-menu-item" href="./pages/contact.html"> 
+        <img src="./pages/img/contact.png"  class="bottom-menu-icon bottom-icon-size"/>
+       </a>
+
+       <a class="bottom-menu-item" href="./pages/services.html"> 
+        <img src="./pages/img/services.png"  class="bottom-menu-icon"/>
+       </a>
     </div>
     
 </body>
