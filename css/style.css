@@ -240,7 +240,7 @@ margin-top:25px;
     
 }
 
-@media screeen and (min-width:769px) and (max-width:992px){
+@media screen and (min-width:769px) and (max-width:992px){
     
     .bottom-navigation-bar{
         display: none;
@@ -293,7 +293,7 @@ margin-top:25px;
     
     }
 
-    @media screen and (min-width:1286px) and (max-width:1440px){
+    @media screen and (min-width:1286px) and (max-width:1800px){
 
         .bottom-navigation-bar{
             display: none;
@@ -310,6 +310,5 @@ margin-top:25px;
         }
     
     }
-        
-        
+
     
