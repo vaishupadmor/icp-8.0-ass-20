@@ -174,26 +174,11 @@ margin-top:25px;
 
 
 
-@media screen and (min-width: 993px ) and (max-width:1200px){
-    .bottom-navigation-bar{
-        display: none;
-    }
 
-    .home{
-        justify-content: center;
-    }
-    .img-home{
-        border-radius: 20px;
-        box-shadow: 0 0 30px 5px blue;
-        width:100%;
-        margin:0px;
-    }
-
-    
         
         
     
-}
+
 
 @media screen and (max-width:600px){
     .sidebar{
@@ -225,10 +210,38 @@ margin-top:25px;
     
 }
 
-@media screeen and (min-width:769px) and (max-width:992px){
+@media screen and (min-width:601px) and (max-width:768px){
+
     .sidebar{
         display:none;
     }
+
+    .bottom-navigation-bar{
+        display: flex;
+        justify-content: space-around;
+ }
+
+ .home{
+    justify-content: center;
+}
+.img-home{
+    border-radius: 20px;
+    box-shadow: 0 0 30px 5px blue;
+    width:100%;
+    margin:0px;
+}
+
+.acontainer{
+      flex-wrap: wrap;
+
+}
+
+
+    
+}
+
+@media screeen and (min-width:769px) and (max-width:992px){
+    
     .bottom-navigation-bar{
         display: none;
     }
@@ -245,6 +258,58 @@ margin-top:25px;
 
     
         }
+
+        @media screen and (min-width: 993px ) and (max-width:1200px){
+            .bottom-navigation-bar{
+                display: none;
+            }
+        
+            .home{
+                justify-content: center;
+            }
+            .img-home{
+                border-radius: 20px;
+                box-shadow: 0 0 30px 5px blue;
+                width:100%;
+                margin:0px;
+            }
+        
+        }   
+        
+    @media screen and (min-width:1201px) and (max-width:1285px){
+        .bottom-navigation-bar{
+            display: none;
+        }
+    
+        .home{
+            justify-content: center;
+        }
+        .img-home{
+            border-radius: 20px;
+            box-shadow: 0 0 30px 5px blue;
+            width:100%;
+            margin:0px;
+        }
+    
+    }
+
+    @media screen and (min-width:1286px) and (max-width:1440px){
+
+        .bottom-navigation-bar{
+            display: none;
+        }
+    
+        .home{
+            justify-content: center;
+        }
+        .img-home{
+            border-radius: 20px;
+            box-shadow: 0 0 30px 5px blue;
+            width:100%;
+            margin:0px;
+        }
+    
+    }
         
         
     
